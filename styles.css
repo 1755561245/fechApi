@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Concert One', cursive;
+    color: rgb(43, 42, 42);
+
+    height:98vh;
+    width:auto;
+
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgba(255, 255, 255, 0.718); */
+    margin-bottom: 40px;
+}
+
+#inputSearchPokemon{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255,0.718);
+    font-size: 20px;
+}
+
+#searchPokemon{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255,0.718);
+    font-size: 20px;
+}
+
+#searchPokemon:hover{
+    background-color: rgba(255, 255, 255,0.918);
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.718);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#imagePokemon{
+    width: 200px;
+    height: 200px;
+}
+
+#namePokemon{
+    font-size: 30px;
+    text-transform: capitalize;
+}
